@@ -19,7 +19,7 @@ public class ShooterGame extends ApplicationAdapter {
     private AnimatedSprite spaceshipAnimated;
     private ShotManager shotManager;
     private Music gameMusic;
-
+    private Enemy enemy;
     @Override
     public void create() {
 
@@ -39,6 +39,8 @@ public class ShooterGame extends ApplicationAdapter {
         Texture shotTexture = new Texture(Gdx.files.internal("shot-spritesheet.png"));
         shotManager = new ShotManager(shotTexture);
 
+        Texture enemyTexture = new Texture(Gdx.files.internal("enemy-spritesheet.png"));
+        enemy = new Enemy(enemyTexture);
         gameMusic = Gdx.audio.newMusic(Gdx.files.internal("game-music.mp3"));
         gameMusic.setVolume(.25f);
         gameMusic.setLooping(true);
