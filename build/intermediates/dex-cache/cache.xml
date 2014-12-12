@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/sakib/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-controllers-android/1.5.0/29fc4a1b20d089670a28c78e8e90ad8903e8822f/gdx-controllers-android-1.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="29fc4a1b20d089670a28c78e8e90ad8903e8822f">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-controllers-android-1.5.0-f1d1e1fb534cd87fd004dfed822580076caa5e3a.jar" />
+    </item>
+    <item
+        jar="/Users/sakib/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-freetype/1.5.0/69b7592d64aeccb21cad51f89544df8770a81f7c/gdx-freetype-1.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="69b7592d64aeccb21cad51f89544df8770a81f7c">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-freetype-1.5.0-0752890f1b6f70e0824c544618c6c8ad888c8162.jar" />
+    </item>
+    <item
+        jar="/Users/sakib/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-bullet/1.5.0/f50221d6205e7d3dcf0f25c2e6494e18dd340d95/gdx-bullet-1.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f50221d6205e7d3dcf0f25c2e6494e18dd340d95">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-bullet-1.5.0-39ec7872cc09ff6c0bacd708a12688d293dc4e8f.jar" />
+    </item>
+    <item
+        jar="/Users/sakib/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.5.0/97ad3f9d65b8b9ecac57547bda2fb2f7626fb8f1/gdx-backend-android-1.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="97ad3f9d65b8b9ecac57547bda2fb2f7626fb8f1">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.5.0-5d67fe042012952966bd0698a35adddb847d64d2.jar" />
+    </item>
+    <item
+        jar="/Users/sakib/.gradle/caches/modules-2/files-2.1/com.badlogicgames.box2dlights/box2dlights/1.3/e829c3543ab5a6b3ff818615a8620024f6a14fe0/box2dlights-1.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e829c3543ab5a6b3ff818615a8620024f6a14fe0">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/box2dlights-1.3-3ae4ada553c270507acce4d916e4e17a83cab8bc.jar" />
+    </item>
+    <item
+        jar="/Users/sakib/Desktop/Game1/core/build/libs/core-1.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f8f1ed16530aa9b02690494040b16e85c8089249">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/core-1.0-8582389292e8d1501e95ca869b032939d8c0c24d.jar" />
+    </item>
+    <item
+        jar="/Users/sakib/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-controllers/1.5.0/6ff91f0cbb70779dc0acdea3f3dc29a2e176bac9/gdx-controllers-1.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6ff91f0cbb70779dc0acdea3f3dc29a2e176bac9">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-controllers-1.5.0-16479a2f00b3d3645e745c746a9c32d12ae54dc0.jar" />
+    </item>
+    <item
+        jar="/Users/sakib/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.5.0/e4272f711228f3cd214802949f18124e2eef1cbc/gdx-1.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e4272f711228f3cd214802949f18124e2eef1cbc">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-1.5.0-0ea59fc4d9a05cba27a1e5309dd2c891b37983d7.jar" />
+    </item>
+    <item
+        jar="/Users/sakib/.gradle/caches/modules-2/files-2.1/com.badlogicgames.ashley/ashley/1.3.1/43aed4ac92b8cce24e92a3836eb5ac916026b49f/ashley-1.3.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="43aed4ac92b8cce24e92a3836eb5ac916026b49f">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/ashley-1.3.1-868245efef3eb666b7bcf41ea027640b4043d162.jar" />
+    </item>
+    <item
+        jar="/Users/sakib/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-box2d/1.5.0/190fcbf9111e2b2ea798ecc5dd8995b861193828/gdx-box2d-1.5.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="190fcbf9111e2b2ea798ecc5dd8995b861193828">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-box2d-1.5.0-b1d631b286a801d70461341346d667d8cbcd91df.jar" />
+    </item>
+    <item
+        jar="/Users/sakib/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-ai/1.4.0/f7532801d6c1526df4a609341fa145acb9e8eb3a/gdx-ai-1.4.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f7532801d6c1526df4a609341fa145acb9e8eb3a">
+        <dex dex="/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-ai-1.4.0-f004a3a2be1c261792da4c9a8bb7fa1566496ab0.jar" />
+    </item>
+
+</items>

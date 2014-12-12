@@ -1,0 +1,12 @@
+/Users/sakib/Desktop/Game1/android/build/intermediates/classes/debug
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/core-1.0-8582389292e8d1501e95ca869b032939d8c0c24d.jar
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-controllers-1.5.0-16479a2f00b3d3645e745c746a9c32d12ae54dc0.jar
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-controllers-android-1.5.0-f1d1e1fb534cd87fd004dfed822580076caa5e3a.jar
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/ashley-1.3.1-868245efef3eb666b7bcf41ea027640b4043d162.jar
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-freetype-1.5.0-0752890f1b6f70e0824c544618c6c8ad888c8162.jar
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/box2dlights-1.3-3ae4ada553c270507acce4d916e4e17a83cab8bc.jar
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-box2d-1.5.0-b1d631b286a801d70461341346d667d8cbcd91df.jar
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-ai-1.4.0-f004a3a2be1c261792da4c9a8bb7fa1566496ab0.jar
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.5.0-5d67fe042012952966bd0698a35adddb847d64d2.jar
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-bullet-1.5.0-39ec7872cc09ff6c0bacd708a12688d293dc4e8f.jar
+/Users/sakib/Desktop/Game1/android/build/intermediates/pre-dexed/debug/gdx-1.5.0-0ea59fc4d9a05cba27a1e5309dd2c891b37983d7.jar
