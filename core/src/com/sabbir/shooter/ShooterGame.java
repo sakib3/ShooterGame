@@ -2,11 +2,13 @@ package com.sabbir.shooter;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.math.Vector3;
 
 public class ShooterGame extends ApplicationAdapter {
     public static final int SCREEN_HEIGHT = 480;
@@ -15,6 +17,8 @@ public class ShooterGame extends ApplicationAdapter {
     private SpriteBatch batch;
     private Texture background;
     private AnimatedSprite spaceshipAnimated;
+    private ShotManager shotManager;
+    private Music gameMusic;
 
     @Override
     public void create() {
@@ -31,6 +35,14 @@ public class ShooterGame extends ApplicationAdapter {
         Sprite spaceshipSprite = new Sprite(spaceshipTexture);
         spaceshipAnimated = new AnimatedSprite(spaceshipSprite);
         spaceshipAnimated.setPosition(800 / 2, 0);
+
+        Texture shotTexture = new Texture(Gdx.files.internal("shot-spritesheet.png"));
+        shotManager = new ShotManager(shotTexture);
+
+        gameMusic = Gdx.audio.newMusic(Gdx.files.internal("game-music.mp3"));
+        gameMusic.setVolume(.25f);
+        gameMusic.setLooping(true);
+        gameMusic.play();
     }
 
     @Override
@@ -47,19 +59,23 @@ public class ShooterGame extends ApplicationAdapter {
         batch.begin();
         batch.draw(background, 0, 0);
         spaceshipAnimated.draw(batch);
+        shotManager.draw(batch);
         batch.end();
 
         handleInput();
 
         spaceshipAnimated.move();
+        shotManager.update();
 
     }
 
     private void handleInput() {
         if(Gdx.input.isTouched())
         {
-            int xTouch = Gdx.input.getX();
-            if(xTouch > spaceshipAnimated.getX())
+            Vector3 touchPosition = new Vector3(Gdx.input.getX(), Gdx.input.getY(), 0);
+            camera.unproject(touchPosition);
+
+            if(touchPosition.x > spaceshipAnimated.getX())
             {
                 spaceshipAnimated.moveRight();
             }
@@ -68,6 +84,7 @@ public class ShooterGame extends ApplicationAdapter {
                 spaceshipAnimated.moveLeft();
             }
 
+            shotManager.firePlayerShot(spaceshipAnimated.getX());
         }
     }
 

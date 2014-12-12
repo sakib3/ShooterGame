@@ -81,7 +81,8 @@ public class AnimatedSprite {
 
     public void move() {
         int xMovement = (int) (velocity.x * Gdx.graphics.getDeltaTime());
-        sprite.setPosition(sprite.getX() + xMovement, 0);
+        int yMovement = (int) (velocity.y * Gdx.graphics.getDeltaTime());
+        sprite.setPosition(sprite.getX() + xMovement, sprite.getY() + yMovement);
 
         if(sprite.getX() < 0)
         {
@@ -97,4 +98,11 @@ public class AnimatedSprite {
 
     }
 
+    public void setVelocity(Vector2 velocity) {
+        this.velocity = velocity;
+    }
+
+    public int getY() {
+        return (int) sprite.getY();
+    }
 }
