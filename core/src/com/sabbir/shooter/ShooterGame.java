@@ -61,6 +61,7 @@ public class ShooterGame extends ApplicationAdapter {
         batch.begin();
         batch.draw(background, 0, 0);
         spaceshipAnimated.draw(batch);
+        enemy.draw(batch);
         shotManager.draw(batch);
         batch.end();
 
