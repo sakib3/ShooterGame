@@ -68,6 +68,7 @@ public class ShooterGame extends ApplicationAdapter {
         handleInput();
 
         spaceshipAnimated.move();
+        enemy.update();
         shotManager.update();
 
     }

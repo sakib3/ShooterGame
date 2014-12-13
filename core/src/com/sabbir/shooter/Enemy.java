@@ -3,6 +3,7 @@ package com.sabbir.shooter;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Vector2;
 
 import java.util.Random;
 
@@ -10,6 +11,7 @@ import java.util.Random;
  * Created by sakib on 12/12/14.
  */
 public class Enemy {
+    private static final float ENEMY_SPEED = 250 ;
     private  Texture enemyTexture;
     private AnimatedSprite animatedSprite;
     public Enemy(Texture enemyTexture) {
@@ -22,6 +24,7 @@ public class Enemy {
         this.animatedSprite = new AnimatedSprite(enemySprite);
         int xPosition = createRandomPosition();
         animatedSprite.setPosition(xPosition,ShooterGame.SCREEN_HEIGHT-animatedSprite.getHight());
+        animatedSprite.setVelocity(new Vector2(ENEMY_SPEED,0));
     }
 
     private int createRandomPosition() {
@@ -32,5 +35,9 @@ public class Enemy {
 
     public void draw(SpriteBatch batch) {
         animatedSprite.draw(batch);
+    }
+
+    public void update() {
+        animatedSprite.move();
     }
 }
